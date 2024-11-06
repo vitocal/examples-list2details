@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  height: 100svh;
+  background-color: blanchedalmond;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-image: radial-gradient(#00000045 1px, white 1px);
+  background-size: 10px 10px;
+}
+
+#root {
+  min-width: 340px;
+  max-width: 340px;
+  height: 90vh;
+  border: 0px;
+}
+
+::view-transition-group(emoji-img),
+::view-transition-group(emoji-name) {
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

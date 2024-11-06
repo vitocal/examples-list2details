@@ -1,0 +1,10 @@
+.header {
+  height: 128px;
+  opacity: 1;
+  transition: all 100ms ease-out;
+
+  @starting-style {
+    height: 64px;
+    opacity: 0.4;
+  }
+}
